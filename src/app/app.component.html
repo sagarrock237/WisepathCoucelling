@@ -1,0 +1,21 @@
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>
+
+<!-- CALCULATOR POPUP -->
+<div *ngIf="calcPopUp" class="calculator-popup">
+  <div class="container">
+    <div class="row">
+      <div class="calculator-popup-in col-lg-5 col-md-8 col-10 mx-auto">
+        <span
+          style="font-size: 25px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; line-height: 25px;">Do
+          you want to Know Your Success rate of immigration?</span>
+
+        <div class="d-flex mt-5">
+          <button class="btn btn-success mx-2" (click)="closeCaclPopup()">Yes</button>
+          <button class="btn btn-danger mx-2" (click)="closeCaclPopup()">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+.Support {
+  background-color: rgb(240, 236, 228);
+  width: 100%;
+  margin: 7%;
+  padding: 3%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+}
+
+.Support-head {
+  font-weight: 400;
+}
+
+.joinForm {
+  background-color:rgb(240, 236, 228);
+  padding: 2%;
+  border-radius: 30px;
+}
+
+.phone{
+  height: 50px;
+  position: fixed;
+  bottom: 80px;
+  left:10px;
+}
+
+@media screen and (max-width: 450px) {
+  .Support-head {
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
