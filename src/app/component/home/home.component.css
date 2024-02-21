@@ -73,9 +73,9 @@
 
 
 @media screen and (max-width: 767px) {
-  .about-banner {
+  /* .about-banner {
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 545px) {

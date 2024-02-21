@@ -24,6 +24,22 @@
   left:10px;
 }
 
+.ticket-btn{
+  height: 50px;
+  position: fixed;
+  bottom: 80px;
+  right:10px;
+}
+
+.ticketPopup{
+  background: URL('assets/img/celebration.gif');
+}
+
+.contactDetails{
+  display: flex;
+  justify-content: space-around;
+}
+
 @media screen and (max-width: 450px) {
   .Support-head {
     font-weight: 400;
